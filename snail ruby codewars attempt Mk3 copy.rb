@@ -44,8 +44,6 @@ def snail(arr)
     arr ? snail_trail.flatten : arr
 end
 
-#To do, code what happen with a 2 square. Put the whole of top-row etc. in an if conditional?
-
 puts "Test one 4x4"
 p snail([[1,2,3,4],
     [5,6,7,8],
